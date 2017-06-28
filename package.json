@@ -1,6 +1,6 @@
 {
   "name": "servdir",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Quick static web directory server on any port",
   "author": "Mark Smith-Guerrero <msmithgu@gmail.com>",
   "repository": {
@@ -9,18 +9,17 @@
   },
   "bugs": "https://github.com/msmithgu/servdir/issues",
   "homepage": "https://github.com/msmithgu/servdir",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "connect": "~2.4.2"
   },
-  "bin" : {
-    "servdir" : "bin/app.js"
+  "bin": {
+    "servdir": "bin/app.js"
   },
-  "engines" : {
-    "node" : ">=0.8.1"
+  "engines": {
+    "node": ">=0.8.1"
   },
   "preferGlobal": true
 }
